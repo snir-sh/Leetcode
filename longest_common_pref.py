@@ -1,6 +1,7 @@
 from typing import List
 
 
+"""Find longest common prefix among array of strings."""
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         i = 0

@@ -1,5 +1,6 @@
 class Solution:
-    def reverse(self, x: int) -> int:
+    """Reverse digits of a 32-bit signed integer."""
+def reverse(self, x: int) -> int:
         sign = -1 if x < 0 else 1
         x = abs(x)
         _, rev_num = self.recursive_reverse(x, 0)

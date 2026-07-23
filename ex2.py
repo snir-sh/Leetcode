@@ -1,3 +1,4 @@
+"""Find median of two sorted arrays."""
 
 nums1 = [1,2,3,4,5]
 

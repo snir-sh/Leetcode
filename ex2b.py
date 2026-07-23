@@ -1,3 +1,4 @@
+"""Find median of two sorted arrays using binary search."""
 class Solution:
     def findMedianSortedArrays(self, nums1, nums2):
 

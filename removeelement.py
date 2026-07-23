@@ -1,5 +1,6 @@
 from typing import List
 
+"""Remove element from array and return new array length."""
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         i = 0

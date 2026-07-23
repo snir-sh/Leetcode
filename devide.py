@@ -1,3 +1,4 @@
+"""Divide two integers without using multiplication, division or modulo."""
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         INT_MAX = 2**31 - 1

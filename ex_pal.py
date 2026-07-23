@@ -1,3 +1,4 @@
+"""Find the longest palindromic substring."""
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         palindrom = []

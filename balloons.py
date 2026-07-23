@@ -1,5 +1,5 @@
+"""Find maximum number of 'balloon' words that can be formed from given text."""
 
-# remove element 'x' from array ['x' , 'a', 'b', 'c'] and return the new array
 def remove_element(arr, element):
     return [x for x in arr if x != element]
 

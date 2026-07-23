@@ -1,5 +1,6 @@
 class Solution:
-    def intToRoman(self, num: int) -> str:
+    """Convert integer to Roman numeral."""
+def intToRoman(self, num: int) -> str:
         numerals = ['I', 'V', 'X', 'L', 'C', 'D', 'M']
         result = ''
         index = 0

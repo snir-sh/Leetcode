@@ -1,3 +1,4 @@
+"""Find all unique triplets in array that sum to zero."""
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums.sort()

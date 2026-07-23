@@ -1,7 +1,8 @@
 from typing import List
 
 class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
+    """Find insert position for target in sorted array."""
+def searchInsert(self, nums: List[int], target: int) -> int:
         l_index = 0
         r_index = len(nums) - 1
 

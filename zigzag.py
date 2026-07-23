@@ -1,5 +1,6 @@
 class Solution:
-    def convert(self, s: str, numRows: int) -> str:
+    """Convert string to zigzag pattern."""
+def convert(self, s: str, numRows: int) -> str:
         print(len(s))
         if numRows == 1:
             return s

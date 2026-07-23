@@ -1,3 +1,4 @@
+"""Remove the N-th node from end of linked list (alternative implementation)."""
 from typing import Optional
 
 class ListNode:

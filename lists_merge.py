@@ -12,6 +12,7 @@ def print_list(head: Optional[ListNode]) -> None:
         head = head.next
     print("None")
 
+"""Merge multiple sorted linked lists into one sorted list."""
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         merged_head = ListNode(0)

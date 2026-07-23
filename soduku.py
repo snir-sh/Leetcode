@@ -1,3 +1,4 @@
+"""Validate whether a Sudoku board is valid."""
 from typing import List
 
 class Solution:

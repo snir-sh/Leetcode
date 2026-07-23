@@ -1,6 +1,7 @@
 from typing import List
 
 
+"""Generate all possible letter combinations for a phone number."""
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         if len(digits) == 0:

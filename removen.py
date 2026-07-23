@@ -3,6 +3,7 @@ from typing import Optional
 from noeds import ListNode
 
 
+"""Remove duplicates from sorted array."""
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         pointer_1 = head
